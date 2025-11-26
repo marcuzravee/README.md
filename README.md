@@ -38,10 +38,12 @@ Select option 1 to add a new passenger. You will input:
 The passenger will automatically be placed into all necessary systems like array, queue, priority queue, BST, and logs.
 
 2. Display Passengers
+   
 Select 2 to show all stored passengers from the array.
 This helps check if data was correctly entered.
 
 3. Sorting Demonstration
+   
 Select 3 to view sorting results:
 * Bubble Sort (by last name)
 * Insertion Sort (by PNR)
@@ -49,7 +51,9 @@ Select 3 to view sorting results:
 This shows how the same data changes order using different algorithms.
 
 Check-in Process
+
 4. Queue Check-in Simulation
+
 Choosing 4 simulates the airport check-in line.
 Options include:
 1. Dequeue one passenger
@@ -58,6 +62,7 @@ Options include:
 This uses FIFO logic, meaning the first passenger added is the first served.
 
 Seat Management
+
 5. Stack Seat Undo/Redo
 This option allows seat changes for a passenger.
 The user enters a PNR and new seat, then chooses:
@@ -66,17 +71,20 @@ The user enters a PNR and new seat, then chooses:
 This uses two stacks to track changes using LIFO behavior.
 
 Boarding Simulation
+
 6. Priority Queue Boarding
 This option boards passengers based on priority using a binary heap.
 Passengers with higher tier and zone are processed first, similar to real airline VIP boarding.
 
 Passenger Search
+
 7. BST Search/Delete
 This option allows searching passengers using their PNR.
 If found, the user can choose to delete the record from the BST.
 This demonstrates efficient searching using Binary Search Tree logic.
 
 Logs and Records
+
 8. Linked List Logs
 Displays:
 * Baggage Log (Singly Linked List)
